@@ -13,34 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login', 'HomeController@login');
 
-Route::get('/register', function () {
-    return view('register');
-});
+Route::get('/register', 'HomeController@register');
 
-Route::get('/admin', function () {
-    return view('admin');
-});
+Route::get('/admin', 'HomeController@admin');
 
-Route::get('/qna', function () {
-    return view('qna');
-});
+Route::get('/qna', 'HomeController@qna');
 
-Route::get('/mypage', function () {
-    return view('mypage');
-});
+Route::get('/mypage', 'HomeController@mypage');
 
-Route::get('/notice', function () {
-    return view('notice');
-});
+Route::get('/notice', 'HomeController@notice');
 
-Route::get('/review', function () {
-    return view('review');
-});
+Route::get('/review', 'HomeController@review');
