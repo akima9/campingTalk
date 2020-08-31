@@ -34,7 +34,11 @@ class HomeController extends Controller
         return view('notice');
     }
 
-    public function review(){
-        return view('review');
+    public function review_item(){
+        return view('review_item');
+    }
+
+    public function review_site(){
+        return view('review_site');
     }
 }

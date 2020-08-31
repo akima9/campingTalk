@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('subTitle')
-	제품리뷰
+	제품 리뷰
 @endsection

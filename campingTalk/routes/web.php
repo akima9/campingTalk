@@ -27,4 +27,6 @@ Route::get('/mypage', 'HomeController@mypage');
 
 Route::get('/notice', 'HomeController@notice');
 
-Route::get('/review', 'HomeController@review');
+Route::get('/review_item', 'HomeController@review_item');
+
+Route::get('/review_site', 'HomeController@review_site');
