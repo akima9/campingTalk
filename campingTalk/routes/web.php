@@ -30,3 +30,5 @@ Route::get('/notice', 'HomeController@notice');
 Route::get('/review_item', 'HomeController@review_item');
 
 Route::get('/review_site', 'HomeController@review_site');
+
+Route::post('/user_id_dupe_check', 'UserController@user_id_dupe_check');
