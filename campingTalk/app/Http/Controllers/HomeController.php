@@ -41,4 +41,8 @@ class HomeController extends Controller
     public function review_site(){
         return view('review_site');
     }
+
+    public function create(){
+        return view('create');
+    }
 }

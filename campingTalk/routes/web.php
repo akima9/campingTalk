@@ -33,4 +33,4 @@ Route::get('/review_site', 'HomeController@review_site');
 
 Route::post('/users', 'UserController@store');
 
-/* Route::post('/user_id_dupe_check', 'UserController@user_id_dupe_check'); */
+Route::get('/create', 'HomeController@create');
